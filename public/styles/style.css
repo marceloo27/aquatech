@@ -1,0 +1,172 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.banner p{
+    padding-left: 640px;
+    font-size: 40px;
+    padding-bottom: 100px;
+    
+
+}
+.banner span{
+    font-weight: bold;
+}
+.header{
+    background-color: black;
+    color: #32b9cd;
+    border-bottom: 4px solid #32b9cd;
+}
+.container1{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 0;
+     border: 2px #32b9cd;
+     
+}
+.navbar{
+    display: flex;
+    gap: 60px;
+    color: #f3d05d;
+    
+}
+.navbar a{
+    color: #f3d05d;
+    font-size: 15px;
+}
+.social{
+    background-color: #e2d4d46c;
+    height: 540px;
+    margin-bottom: 0;
+    border: 2px #32b9cd;
+    
+}
+.footer{
+    background-color: #32b9cd;
+    height: 100px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    
+}
+.footer h4{
+    padding-top: 15px;
+    font-size: 13px;
+    margin: 0;
+}
+.box img{
+    width: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 120px;
+    margin-bottom: 0;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social h4{
+    display: flex;
+    justify-content: center;
+    color: #d41a77;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+.tamanho{
+    height: 545px;
+}
+.containerlogin {
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    
+}
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    color: #d41a77;
+}
+input{
+    background-color: white;
+    border: 2px solid #32b9cd;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+.botao{
+    background-color: #d41a77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+.containercadastro {
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 600px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+
+}
+.botaoalinhar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.containerlogin h2{
+    display: flex;
+    justify-content: center;
+
+}
+.containercadastro h2{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+  
+   
+  
+    
+}
+.container2 p{
+    font-size: 15px;
+   
+}
