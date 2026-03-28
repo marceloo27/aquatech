@@ -4,13 +4,15 @@ body{
     padding: 0;
     height: 100vh;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 
 }
 .banner{
     flex: 1;
     background-image: url(./assets/imgs/bg-jelly-fish-para-home.png);
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     background-size: cover;
     color: white;
     display: flex;
@@ -22,6 +24,7 @@ body{
     padding-left: 42%;
     font-size: 40px;
     padding-bottom: 100px;
+    
     
 
 }
@@ -85,10 +88,11 @@ body{
 .boxes{
     display: flex;
     align-items: center;
-    gap: 150px;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 120px;
+    gap: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-bottom: 0;
     
 }
@@ -173,4 +177,16 @@ input{
 .container2 p{
     font-size: 15px;
    
+}
+.banner .container{
+    margin-top: 45%;
+    
+    padding-bottom: 34%;
+    
+}
+.footer .container{
+    height: 100px;
+}
+.banner .container p{
+    padding-bottom: 17%;
 }
